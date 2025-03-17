@@ -1,5 +1,3 @@
-<ul>
 {% for page in collections.pages %}
-<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    <a href="#{{ page.data.id }}">{{ page.data.title }} </a>
 {% endfor %}
-</ul>

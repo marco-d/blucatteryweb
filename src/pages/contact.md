@@ -1,5 +1,6 @@
 ---
 title: Kontakt
+id: contact
 ---
 Interessiert an von Blumenbergs Welpen? <br> Kontaktieren Sie uns für Informationen zur aktuellen Verfügbarkeit!!!
 ### von Blumenberg
