@@ -1,0 +1,11 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="fluid-container p-3 ">
+<article style="background-color: {{ themecolors.themebg }} ;">
+	<h1 style="color: {{ themecolors.themecol }}">{{ title }}  </h1>
+	<img src="{{ image }}" class="img-fluid" alt="">
+	{{ content | safe }}
+</article>
+</div>
+{% endblock %}

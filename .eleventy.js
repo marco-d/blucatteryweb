@@ -1,12 +1,15 @@
 module.exports = function (eleventyConfig) {
-  markdownTemplateEngine: "njk";
   eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addWatchTarget("./src/css/");  
+  eleventyConfig.addPassthroughCopy("./src/img");
+
   return {
-      
-      dir: {
-        input: "src",
-        output: "public"
-      },
-    };
-  }
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dir: {
+      input: "src",
+      includes: "_includes",
+      output: "dist"
+    }
+  };
+};

@@ -1,12 +1,9 @@
 ---
-title: British Shorthair BSH Familienhauszucht in Bern.
-layout: base.njk
+title: 'Hello, Cat!'
+layout: 'layouts/home.html'
+image: '/img/cat.jpg'
+themecolors:
+  themebg: '#eeefef'
+  themecol: '#227788'
 ---
-
-### Willkommen
-
-Herzlich willkommen zu unserem Britisch Kurzhaar Familienzucht.
-
-### Über von Blumenberg:
-{% include "pagelist.njk" %}
-{% include "pagepile.njk" %}
+Portraiting feline personalities.
