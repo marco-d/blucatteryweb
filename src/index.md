@@ -1,6 +1,6 @@
 ---
 title: 'Hello, Cat!'
-layout: 'layouts/home.html'
+layout: 'layouts/stack.html'
 image: '/img/cat.jpg'
 themecolors:
   themebg: '#eeefef'
