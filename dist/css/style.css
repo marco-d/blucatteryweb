@@ -30,3 +30,8 @@ h2, h3, h4 {
     color: rgb(139, 121, 157);
 
 }
+
+.brand {
+  max-width: 128px;
+  height: auto;
+}
